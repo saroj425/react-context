@@ -1,8 +1,13 @@
 import React from 'react'
+import CompC from './ComC'
 
 const ComB = () => {
   return (
-    <div>ComB</div>
+    <>
+      <div>Component B</div>
+      <CompC />      
+    </>
+    
   )
 }
 
